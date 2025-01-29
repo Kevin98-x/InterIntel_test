@@ -90,7 +90,7 @@
 
 ## 4. **Helm Commands**
 
-### ``
+### 
 
 - This updates local Helm repository cache.
   ```bash
@@ -100,7 +100,7 @@
 
 ## 5. **Tekton Commands**
 
-### ``
+### 
 
 - This starts a Tekton pipeline execution.
   ```bash
