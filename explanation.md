@@ -43,7 +43,7 @@
 
 
 
-## 2. **Azure CLI Commands and Flags**
+## 2. **Azure CLI Commands**
 
 ### ``
 
@@ -64,7 +64,7 @@
   az aks get-credentials --resource-group kevin-testR --name kevin-cluster
   ```
 
-## 3. **Kubectl Commands and Flags**
+## 3. **Kubectl Commands**
 
 ### ``
 
@@ -88,14 +88,7 @@
   ```
   
 
-## 4. **Helm Commands and Flags**
-
-### ``
-
-- This adds a Helm chart repository.
-  ```bash
-  helm repo add grafana https://grafana.github.io/helm-charts
-  ```
+## 4. **Helm Commands**
 
 ### ``
 
@@ -104,15 +97,8 @@
   helm repo update
   ```
 
-### ``
 
-- This installs Helm charts into Kubernetes.
-  ```bash
-  helm install loki grafana/loki-stack --namespace monitoring --create-namespace
-  ```
-  
-
-## 5. **Tekton Commands and Flags**
+## 5. **Tekton Commands**
 
 ### ``
 
