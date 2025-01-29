@@ -41,6 +41,11 @@
   ```
 - In data source you set this url to access it locally http://loki:3100
 
+### 
+
+- After creating a new dashboard in grafana you can use the logs panel to query logs from Loki so that you can visualize them.
+  
+
 
 
 ## 2. **Azure CLI Commands**
