@@ -121,6 +121,8 @@
     --set controller.enableModsecurity=true \
     --set controller.enableOWASPCoreRules=true
   ```
+  - The first one enables modsecurity 
+  - The second one enables OWASP core rules ( this will protect the web application from attack paterns)
   
 
 
