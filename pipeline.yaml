@@ -1,0 +1,13 @@
+apiVersion: tekton.dev/v1beta1
+kind: Pipeline
+metadata:
+  name: build-and-deploy
+spec:
+  tasks:
+    - name: build
+      taskRef:
+        name: kaniko
+    - name: deploy
+      runAfter: ["build"]
+      taskRef:
+        name: kubernetes-actions
